@@ -2,6 +2,13 @@
 
 @section('title', 'Clean Blog - Start Bootstrap Theme')
 
+@section('heading', 'Clean Blog')
+@section('subHeading', 'A Blog Theme by Start Bootstrap')
+
+@section('imageHeader')
+background-image: url('{{ asset('assets/img/home-bg.jpg') }}')
+@endsection
+
 @section('content')
 <div class="container px-4 px-lg-5">
     <div class="row gx-4 gx-lg-5 justify-content-center">
@@ -66,8 +73,4 @@
 </div>
 @endsection
 
-@section('titleBlog', 'Clean Blog')
-@section('subHeading', 'A Blog Theme by Start Bootstrap')
-@section('image')
 
-@endsection

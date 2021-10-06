@@ -1,8 +1,11 @@
 @extends('layouts.app')
 
 @section('title', 'Clean Blog - Start Bootstrap Theme')
+@section('imageHeader')
+background-image: url('{{ asset('assets/img/about-bg.jpg') }}')
 
-@section('titleBlog', 'About Me')
+@endsection
+@section('heading', 'About Me')
 @section('subHeading', 'This is what I do.')
 
 @section('content')

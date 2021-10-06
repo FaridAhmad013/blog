@@ -2,14 +2,16 @@
 
 @section('title', 'Clean Blog - Start Bootstrap Theme')
 
-@section('titleBlog', 'Man must explore, and this is exploration at its greatest')
-@section('heading', 'Problems look mighty small from 150 miles up')
-
+@section('heading', 'Man must explore, and this is exploration at its greatest')
+@section('subHeading', 'Problems look mighty small from 150 miles up')
 @section('meta')
 Posted by
-<a href="#!">Start Bootstrap</a>
+<a href="#!" class="text-white">Start Bootstrap</a>
 on August 24, 2021
+@endsection
 
+@section('imageHeader')
+background-image: url('{{ asset('assets/img/post-bg.jpg') }}')
 @endsection
 
 @section('content')
