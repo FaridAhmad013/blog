@@ -17,3 +17,9 @@ Route::get('/about', function () {
 Route::get('/post', function () {
     return view('post');
 })->name('post');
+
+Route::prefix('admin')->group(function () {
+    Route::get('/', function () {
+        return view('admin.index');
+    });
+});
